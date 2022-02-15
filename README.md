@@ -1,2 +1,2 @@
-# QuotesDataset
-Quotes datasets for the open source community from the goodreads website. 
+# ScrapingDataset
+Scraping Dataset for the contribution to open source community
