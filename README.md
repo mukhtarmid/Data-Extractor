@@ -24,7 +24,7 @@ Now, to scrape data from these websites you have to be updated with the websites
 
 **Step 7:** Now get back to the Remote Chrome Browser or website and right-click anywhere and goto inspect, under that prefer hover-mouse icon on the upper-left side of the html code window, and hover your mouse to the desired data you want to extract. Get the tag name, as well as class name and perform action with the help of `soup.find_all('tag_name', class_ ='class_name')` OR go with `soup.select('tagname.class1name.class2name. . . ')`.
 
-***NOTE:*** We need `time.sleep(number of seconds)` to freeze the code for that much number of seconds, as while requests and response from internet might not be so fast, we might loose some of the data. For *n* number of pages to extract from websites, we just define a function to perform certain desired tasks. The only key point to remember is, where page number is variable, replace it with `{}`, and then you can access that page by `page.format(page_number)`.
+***NOTE:*** We need `time.sleep(number of seconds)` to freeze the code for that much number of seconds, as while requests and response from internet might not be so fast, we might loose some of the data. For *n* number of pages to extract from websites, we just define a function to perform certain desired tasks. The only key point to remember is, where page number is variable, replace it with `{}`, and then you can access that page by `page.format(page_number)`. 
 
 Now, let's move to Static Website,
 
@@ -60,4 +60,4 @@ The preocedure remains same as of the above, the only differences arrive while s
 
 **Step 8:** Now, we have to access the rows and then data of the row, for that we have tags `tr` & `td`.
 
-                                                        
+***NOTE: I have shared my jupyter notebook, for your convenience, for each section you'll find a jupyter notebook, and further more will be uploaded.***
