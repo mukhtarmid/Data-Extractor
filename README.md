@@ -14,7 +14,7 @@ Now, to scrape data from these websites you have to be updated with the websites
 
 **Step 2:** Now we need a remote web browser, so we can have command over him, and we can control with codes. For this we have `webdriver.Chrome()`, this code will open a remote blank Chrome Browser.
 
-**Step 3:** Inside an varibale store the dynamic website in the form of string.
+**Step 3:** Inside an varibale store the dynamic website url in the form of string.
 
 **Step 4:**`browser.get(variable)` will open the website in a Remote Chrome Browser.
 
@@ -35,7 +35,7 @@ As compared to dynamic websites, you need not to be updated so much with the web
 
 **Step 1:** We import the libraries such as, `BeautifulSoup from bs4`, `requests`, `time`, & as usual `pandas` for playing with datas.
 
-**Step 2:** Inside an varibale store the website in the form of string.
+**Step 2:** Inside an varibale store the website url in the form of string.
 
 **Step 3:** `requests.get(url).text` will give you the html code, but in the text form. Store it in `html` variable.
 
